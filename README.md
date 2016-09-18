@@ -1,6 +1,6 @@
 # gaikwad
 
-Hosted at (gaikwad.rocks)[http://gaikwad.rocks]
+Hosted at [gaikwad.rocks](http://gaikwad.rocks)
 
 ## Description
 

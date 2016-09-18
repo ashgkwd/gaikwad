@@ -1,0 +1,9 @@
+version: '2'
+services:
+    web:
+        image: sixer-couchdb
+        command: bash -c 'cd /app && npm start'
+        volumes:
+            - ./:/app
+        ports:
+            - "5000:5000"

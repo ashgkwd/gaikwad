@@ -1,2 +1,7 @@
 # gaikwad
-gharchi website 
+
+Hosted at (gaikwad.rocks)[http://gaikwad.rocks]
+
+## Description
+
+घरची वेबसाइट​

@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
+	<% include ../partials/header.ejs %>
 </head>
-
 <body>
 
-  <% include ../partials/nav.ejs %>
+<section role="container-list" class="container">
+	<article role="profile-header" class="big card">
+		<aside role="profile-pic" class="image">
+			<img src="/images/ashish.jpg">
+		</aside>
+		<main role="profile-info" class="content">
+			<header role="profile-name">Ashish Gaikwad</header>
+			<p class="lead">
+				<i class="fa fa-rocket"></i> Fighting dreamer #yo
+			</p>
+		</main>
+	</article>
 
-<div class="jumbotron text-center" style="height:100vh">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/cake-logo.png">
-    </a>
-    <h1>Atish &amp; Harish</h1>
-    <p>Many Many Happy Returns Of The Day</p>
-    
-    <h4 style="bottom:0; position:absolute">Made with ♥ by Ashish</h4>
-  </div>
-</div>
+	<article role="work" class="card">
+		<aside role="company-logo" class="image">
+			<img src="/images/varsito.png">
+		</aside>
+		<main role="work-info" class="content">
+			<header role="company-name">
+				<span>Varsito</span> <span class="right">2016 → Present</span>
+			</header>
+			<p class="lead">
+				I write codes
+			</p>
+			<ul role="reference-links" class="unstyled">
+				<li><a href="#">varsito.com</a></li>
+				<li><a href="#">medium.com → varsito tech stack and why ♥ it</a></li>
+				<li><a href="#">medium.com → that's how we learned to ✱</a></li>
+			</ul>
+		</main>
+	</article>
+
+	<article role="work" class="card">
+		<aside role="company-logo" class="image">
+			<img src="/images/varsito.png">
+		</aside>
+		<main role="work-info" class="content">
+			<header role="company-name">Varsito</header>
+			<p class="lead">
+				I write codes
+			</p>
+		</main>
+	</article>
+
+	<article role="work" class="card">
+		<aside role="company-logo" class="image">
+			<img src="/images/varsito.png">
+		</aside>
+		<main role="work-info" class="content">
+			<header role="company-name">Varsito</header>
+			<p class="lead">
+				I write codes
+			</p>
+		</main>
+	</article>
+
+	<article role="work" class="card">
+		<aside role="company-logo" class="image">
+			<img src="/images/varsito.png">
+		</aside>
+		<main role="work-info" class="content">
+			<header role="company-name">Varsito</header>
+			<p class="lead">
+				I write codes
+			</p>
+		</main>
+	</article>
+</section>
 
 </body>
 </html>

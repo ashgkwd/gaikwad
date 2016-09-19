@@ -18,24 +18,26 @@
 		</main>
 	</article>
 
+	<% data.cards.forEach(function(w) { %>
 	<article role="work" class="card">
 		<aside role="company-logo" class="image">
-			<img src="/images/varsito.png">
+			<img src="/images/<%= w.logo %>">
 		</aside>
 		<main role="work-info" class="content">
 			<header role="company-name">
-				<span>Varsito</span> <span class="right">2016 → Present</span>
+				<span><%= w.name %></span> <span class="right"> <%= w.from %> → <%= w.to %></span>
 			</header>
-			<p class="lead">
-				I write codes
-			</p>
+			<p class="lead"><%= w.lead %></p>
+			<% if(w.refs) { %>
 			<ul role="reference-links" class="unstyled">
-				<li><a href="#">varsito.com</a></li>
-				<li><a href="#">medium.com → varsito tech stack and why ♥ it</a></li>
-				<li><a href="#">medium.com → that's how we learned to ✱</a></li>
+				<% w.refs.forEach(function (r) { %>
+				<li><a href="<%= r.link %>"><%= r.title %></a></li>
+				<% }); %>
 			</ul>
+			<% } %>
 		</main>
 	</article>
+	<% }); %>
 
 	<article role="work" class="card">
 		<aside role="company-logo" class="image">

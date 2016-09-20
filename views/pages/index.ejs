@@ -8,13 +8,11 @@
 <section role="container-list" class="container">
 	<article role="profile-header" class="big card">
 		<aside role="profile-pic" class="image">
-			<img src="/images/ashish.jpg">
+			<img src="<%= data.profile.pic %>">
 		</aside>
 		<main role="profile-info" class="content">
-			<header role="profile-name">Ashish Gaikwad</header>
-			<p class="lead">
-				<i class="fa fa-rocket"></i> Fighting dreamer #yo
-			</p>
+			<header role="profile-name"><%= data.profile.name %></header>
+			<p class="lead"><%- data.profile.lead %></p>
 		</main>
 	</article>
 
@@ -27,7 +25,7 @@
 			<header role="company-name">
 				<span><%= w.name %></span> <span class="right"> <%= w.from %> → <%= w.to %></span>
 			</header>
-			<p class="lead"><%= w.lead %></p>
+			<p class="lead"><%- w.lead %></p>
 			<% if(w.refs) { %>
 			<ul role="reference-links" class="unstyled">
 				<% w.refs.forEach(function (r) { %>
@@ -38,42 +36,6 @@
 		</main>
 	</article>
 	<% }); %>
-
-	<article role="work" class="card">
-		<aside role="company-logo" class="image">
-			<img src="/images/varsito.png">
-		</aside>
-		<main role="work-info" class="content">
-			<header role="company-name">Varsito</header>
-			<p class="lead">
-				I write codes
-			</p>
-		</main>
-	</article>
-
-	<article role="work" class="card">
-		<aside role="company-logo" class="image">
-			<img src="/images/varsito.png">
-		</aside>
-		<main role="work-info" class="content">
-			<header role="company-name">Varsito</header>
-			<p class="lead">
-				I write codes
-			</p>
-		</main>
-	</article>
-
-	<article role="work" class="card">
-		<aside role="company-logo" class="image">
-			<img src="/images/varsito.png">
-		</aside>
-		<main role="work-info" class="content">
-			<header role="company-name">Varsito</header>
-			<p class="lead">
-				I write codes
-			</p>
-		</main>
-	</article>
 </section>
 
 </body>

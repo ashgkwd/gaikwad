@@ -10,11 +10,13 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+	console.log('index > /', request.get('host'));
+	var profile = require('./data/ashish.json')
+	response.render('pages/index', {data: profile});
 });
 
 app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+	console.log('Node app is running on port', app.get('port'));
 });
 
 

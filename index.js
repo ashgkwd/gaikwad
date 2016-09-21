@@ -10,9 +10,10 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-	console.log('index > /', request.get('host'));
-	var profile = require('./data/ashish.json')
-	response.render('pages/index', {data: profile});
+	console.log('index > /', request.get('host').split(':').shift());
+	response.render('pages/index', {
+		data: require('./data/'+request.get('host').split(':').shift()+'.json')
+	});
 });
 
 app.listen(app.get('port'), function() {

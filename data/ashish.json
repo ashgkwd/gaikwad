@@ -18,13 +18,16 @@
 			"link": "https://medium.com/@ashgkwd"
 		}]
 	}, {
+		"name": "SatNOGS Mumbai - Building A Satelite Ground Station",
+		"from": "Oct 2015",
+		"to": "Present",
+		"lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares",
+		"refs": []
+	}, {
 		"name": "3D Printer",
 		"from": "Aug 2015",
 		"to": "Dec 2016",
 		"lead": "I build a 3D printer from scratch with two awesome team mates",
-		"refs": [{
-			"title": "How I built a 3D printer",
-			"link": "http://"
-		}]
+		"refs": []
 	}]
 }

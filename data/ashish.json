@@ -2,7 +2,11 @@
 	"profile": {
 		"name": "Ashish Gaikwad",
 		"pic": "/images/ashish.jpg",
-		"lead": "<i class='fa fa-rocket'></i> Fighting dreamer #yo"
+		"lead": "<i class='fa fa-rocket'></i> Fighting dreamer #yo",
+		"links": [{
+			"icon": "github",
+			"link": "http://github.com/ashgkwd?ref=http://gaikwad.rocks"
+		}]
 	},
 	"cards": [{
 		"name": "Varsito",

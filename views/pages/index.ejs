@@ -13,6 +13,11 @@
 		<main role="profile-info" class="content text-center">
 			<header role="profile-name"><%= data.profile.name %></header>
 			<p class="lead"><%- data.profile.lead %></p>
+			<footer role="links">
+				<% data.profile.links.forEach(function(a) { %>
+				<a href="<%= a.link %>" class="lead"><i class="fa <%= 'fa-' + a.icon %>"></i></a>
+				<% }); %>
+			</footer>
 		</main>
 	</article>
 
@@ -38,5 +43,6 @@
 	<% }); %>
 </section>
 
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </body>
 </html>

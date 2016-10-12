@@ -6,6 +6,21 @@
 		"links": [{
 			"icon": "github",
 			"link": "http://github.com/ashgkwd?ref=http://gaikwad.rocks"
+		}, {
+			"icon": "linkedin",
+			"link": "https://in.linkedin.com/in/ashgkwd"
+		}, {
+			"icon": "medium",
+			"link": "https://medium.com/@ashgkwd"
+		}, {
+			"icon": "slideshare",
+			"link": "http://www.slideshare.net/ashgkwd"
+		}, {
+			"icon": "facebook-official",
+			"link": "http://fb.me/ash.gkwd"
+		}, {
+			"icon": "instagram",
+			"link": "https://www.instagram.com/ash.gkwd"
 		}]
 	},
 	"cards": [{

@@ -130,6 +130,14 @@ header .right {
 	justify-content: right;
 }
 
+footer {
+	margin-top: 1rem;
+}
+
+footer .lead {
+	color: #999;
+}
+
 .right {
 	text-align: right;
 	color: #888;

@@ -14,7 +14,8 @@
 			<header role="profile-name"><%= data.profile.name %></header>
 			<p class="lead"><%- data.profile.lead %></p>
 			<footer role="links">
-				<% data.profile.links.forEach(function(a) { %>
+				<% data.profile.links.forEach(function(a, index) { %>
+				<% if(index!=0) { %>&emsp;<% }; %>
 				<a href="<%= a.link %>" class="lead"><i class="fa <%= 'fa-' + a.icon %>"></i></a>
 				<% }); %>
 			</footer>

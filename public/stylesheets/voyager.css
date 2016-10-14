@@ -116,6 +116,7 @@ header {
 }
 
 .big-card header {
+	display: block;
 	font-size: 64px;
 }
 

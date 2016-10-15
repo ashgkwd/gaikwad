@@ -38,7 +38,7 @@ body {
 
 	/*flex container properties*/
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 
 	/*layout properties*/
 	margin-top: 1rem;
@@ -112,7 +112,7 @@ header {
 	margin-bottom: 6px;
 
 	/*design properties*/
-	font-size: x-large;	
+	font-size: large;	
 }
 
 .big-card header {
@@ -120,15 +120,8 @@ header {
 	font-size: 64px;
 }
 
-header span {
-	/*own flex prperties as child of header*/
-	flex-grow: 2;
-}
-
-header .right {
-	/*own flex prperties as child of header*/
-	flex-shrink: 1;
-	justify-content: right;
+.titles strong {
+	font-size: x-large;
 }
 
 footer {
@@ -139,31 +132,13 @@ footer .lead {
 	color: #999;
 }
 
-.right {
-	text-align: right;
-	color: #888;
-	font-size: initial;
-}
-
 .lead {
-	font-size: large;
+	font-size: x-large;
 	color: #555;
 }
 
 .big-card .lead {
 	font-size: xx-large;
-}
-
-.card ul {
-	margin-top: 1rem;
-}
-
-.card li {
-	margin: 10px 0;
-}
-
-.unstyled {
-	list-style: none;
 }
 
 a {

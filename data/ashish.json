@@ -28,13 +28,13 @@
 		"logo": "/images/varsito.png",
 		"from": "Jun 2016",
 		"to": "Present",
-		"lead": "I write codes",
+		"lead": "Here at Varsito things move pretty fast! I take care of server, web, mobile and everything in between.",
 		"refs": [{
-			"title": "varsito.com",
+			"icon": "desktop",
 			"link": "http://varsito.com"
 		}, {
-			"title": "Varsito tech stack and why I love it",
-			"link": "https://medium.com/@ashgkwd"
+			"icon": "medium",
+			"link": "https://medium.com/@ashgkwd/varsito-tech-stack-and-why-i-it-4132f9886ab2?source=http://gaikwad.rocks"
 		}]
 	}, {
 		"name": "SatNOGS Mumbai - Building A Satelite Ground Station",

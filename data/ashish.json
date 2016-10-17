@@ -43,6 +43,16 @@
 		"lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares",
 		"refs": []
 	}, {
+		"name": "CodeStrike - CodeChef Atharva Chapter",
+		"logo": "/images/codestrike.png",
+		"from": "Jan 2014",
+		"to": "May 2016",
+		"lead": "To bring the coders of Atharva College together and help them to be better programmer, I founded <b>CodeStrike</b> as a chapter of <b>CodeChef</b> along with my friend Parikshit.",
+		"refs": [{
+			"icon": "medium",
+			"link": "https://medium.com/@ashgkwd/challenges-keep-me-interested-in-college-b1fa98107a0d#.3m5qb3suz"
+		}]
+	}, {
 		"name": "3D Printer",
 		"from": "Aug 2015",
 		"to": "Dec 2016",

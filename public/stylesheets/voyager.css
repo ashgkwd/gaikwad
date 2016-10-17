@@ -1,5 +1,5 @@
 * {
-	font-family: sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -11,8 +11,7 @@ body {
 
 	/*design properties*/
 	background-color: #22A7F0;
-	background-image: linear-gradient(to bottom, #22A7F0, #22A7F0 200px, white 200px, white);
-	/*background-image: linear-gradient(to bottom, #22A7F0, #22A7F0 20%, white 20%, white);*/
+	background-image: linear-gradient(to bottom, #22A7F0, #22A7F0 275px, white 275px, white);
 	display: flex;
 	justify-content: center;
 }
@@ -28,7 +27,7 @@ body {
 
 	/*layout properties*/
 	max-width: 900px;
-	margin-top: 1rem;
+	margin-top: 48px;
 	margin-bottom: 1rem;
 }
 
@@ -47,14 +46,13 @@ body {
 
 	/*design properties*/
 	border-radius: 2px;
-	/*background-color: rgba(255,255,255,0.8);*/
-	box-shadow: 0 0 0.7rem rgba(200,200,200,0.2);
+	box-shadow: 0 0 0.7rem rgba(200,200,200,0.3);
 
 	/*animation properties*/
 	transition: background-color 200ms ease-in-out;
 }
 
-.card:hover,  .card:focus {
+.card:hover, .card:focus {
 	/*background-color: white;*/
 	box-shadow: 0 0 0.7rem rgba(200,200,200,0.4);
 }
@@ -99,8 +97,8 @@ body {
 }
 
 .content {
-	/*own flex properties as child of .card*/
-	flex-grow: 2;
+	/*layout properties*/
+	margin-top: 1.2rem;
 }
 
 header {
@@ -133,7 +131,7 @@ footer .lead {
 }
 
 .lead {
-	font-size: x-large;
+	font-size: large;
 	color: #555;
 }
 

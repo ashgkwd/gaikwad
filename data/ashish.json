@@ -58,5 +58,12 @@
 		"to": "Dec 2016",
 		"lead": "I build a 3D printer from scratch with two awesome team mates",
 		"refs": []
+	}, {
+		"name": "RadioLocus",
+		"logo": "http://www.radiolocus.com/images/ftr_logo.jpg",
+		"from": "Jun 2015",
+		"to": "Aug 2015",
+		"lead": "I was responsible for developing a cross platform desktop app which can auto detect WiFi sensor and allow to configure it using UI. I also worked on web frontend specially on visualization using D3JS. Along with that I also got some exposure to Hadoop and Casscading frameworks, testing machine setups using VMs etc.",
+		"refs": []
 	}]
 }

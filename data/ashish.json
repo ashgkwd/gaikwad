@@ -40,7 +40,7 @@
 		"name": "SatNOGS Mumbai - Building A Satelite Ground Station",
 		"from": "Oct 2015",
 		"to": "Present",
-		"lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares",
+		"lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares. Also I conducted a satellite making workshop with Azad and Sachin to raise funding for SatNOGS.",
 		"refs": []
 	}, {
 		"name": "CodeStrike - CodeChef Atharva Chapter",
@@ -63,7 +63,32 @@
 		"logo": "http://www.radiolocus.com/images/ftr_logo.jpg",
 		"from": "Jun 2015",
 		"to": "Aug 2015",
-		"lead": "I was responsible for developing a cross platform desktop app which can auto detect WiFi sensor and allow to configure it using UI. I also worked on web frontend specially on visualization using D3JS. Along with that I also got some exposure to Hadoop and Casscading frameworks, testing machine setups using VMs etc.",
+		"lead": "As summer intern, I was responsible for developing a cross platform desktop app which can auto detect WiFi sensor and allow to configure it using UI. I also worked on web frontend specially on visualization using D3JS. Along with that I also got some exposure to Hadoop and Casscading frameworks, testing machine setups using VMs etc.",
+		"refs": [{
+			"icon": "desktop",
+			"link": "http://www.radiolocus.com/"
+		}]
+	}, {
+		"name": "42Spices",
+		"logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAQiAAAAJDQ5MTBhNDRjLTQwZjgtNGZjYS04Y2UyLTEyNDU1NmEzYWZmZg.png",
+		"from": "Jun 2015",
+		"to": "Jul 2015",
+		"lead": "As remote summer intern, I worked on KeystoneJS (NodeJS), MongoDB and database version management. Also prototyped Android <i class='fa fa-android'></i> app for 42Spices.",
 		"refs": []
+	}, {
+		"name": "Expojure",
+		"from": "Dec 2014",
+		"to": "Feb 2015",
+		"lead": "As winter intern, I worked as full stack developer. Also created open source JavaScript library <b>Backpack</b> which provides UI components for BackboneJS apps.",
+		"refs": [{
+			"icon": "github",
+			"link": "https://github.com/ashgkwd/backpack"
+		}, {
+			"icon": "usd",
+			"link": "https://www.indiegogo.com/projects/expojure-spend-more-time-taking-photos#/"
+		}, {
+			"icon": "desktop",
+			"link": "http://invis.io/Z71CM8JT5"
+		}]
 	}]
 }

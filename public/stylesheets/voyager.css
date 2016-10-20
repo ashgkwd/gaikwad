@@ -27,8 +27,7 @@ body {
 
 	/*layout properties*/
 	max-width: 900px;
-	margin-top: 48px;
-	margin-bottom: 1rem;
+	margin: 48px 1rem 1rem 1rem;
 }
 
 .card, .big-card {

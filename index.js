@@ -1,4 +1,5 @@
 var express = require('express');
+var fs = require('fs');
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -8,6 +9,20 @@ app.use(express.static(__dirname + '/public'));
 // views is directory for all template files
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
+
+app.post('/receive/v1', function(request, respond) {
+    var body = '';
+    filePath = __dirname + '/public/output.txt';
+    request.on('data', function(data) {
+        body += data;
+    });
+
+    request.on('end', function (){
+        fs.appendFile(filePath, body, function() {
+            respond.end();
+        });
+    });
+});
 
 app.get('/', function(request, response) {
 	try {

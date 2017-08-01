@@ -11,17 +11,27 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.post('/receive/v1', function(request, respond) {
-    var body = '';
-    filePath = __dirname + '/public/output.txt';
-    request.on('data', function(data) {
-        body += data;
-    });
+	var body = '';
+	filePath = __dirname + '/public/output.txt';
+	request.on('data', function(data) {
+		body += data;
+	});
 
-    request.on('end', function (){
-        fs.appendFile(filePath, body, function() {
-            respond.end();
-        });
-    });
+	request.on('end', function (){
+		fs.appendFile(filePath, body, function() {
+			respond.send({
+				adc: 420,
+				full: 20.43,
+				empty: 0.56,
+				mcl: 1.20,
+				lbc: 0.232,
+				pi: 60*24,
+				api: "http://ash.gaikwad.rocks/receive/v1",
+				vid: "1.1.2"
+			});
+			respond.end();
+		});
+	});
 });
 
 app.get('/', function(request, response) {

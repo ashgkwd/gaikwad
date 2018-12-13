@@ -1,106 +1,136 @@
 {
-	"profile": {
-		"name": "Ashish Gaikwad",
-		"pic": "/images/ashish.jpg",
-		"lead": "<i class='fa fa-rocket'></i> creative and tenacious problem solver",
-		"links": [{
-			"icon": "github",
-			"link": "http://github.com/ashgkwd?ref=http://gaikwad.rocks"
-		}, {
-			"icon": "linkedin",
-			"link": "https://in.linkedin.com/in/ashgkwd"
-		}, {
-			"icon": "medium",
-			"link": "https://medium.com/@ashgkwd"
-		}, {
-			"icon": "slideshare",
-			"link": "http://www.slideshare.net/ashgkwd"
-		}, {
-			"icon": "facebook-official",
-			"link": "http://fb.me/ash.gkwd"
-		}, {
-			"icon": "instagram",
-			"link": "https://www.instagram.com/ash.gkwd"
-		}]
-	},
-	"cards": [{
-		"name": "Varsito",
-		"logo": "/images/varsito.png",
-		"from": "Jun 2016",
-		"to": "Present",
-		"lead": "Here at Varsito things move pretty fast! I take care of server, browser, mobile and everything in between.",
-		"refs": [{
-			"icon": "desktop",
-			"link": "http://varsito.com"
-		}, {
-			"icon": "medium",
-			"link": "https://medium.com/@ashgkwd/varsito-tech-stack-and-why-i-it-4132f9886ab2?source=http://gaikwad.rocks"
-		}]
-	}, {
-		"name": "SatNOGS Mumbai - Building A Satelite Ground Station",
-		"from": "Oct 2015",
-		"to": "Present",
-		"lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares. Also I conducted a satellite making workshop with Azad and Sachin to raise funding for SatNOGS.",
-		"refs": []
-	}, {
-		"name": "CodeStrike - CodeChef Atharva Chapter",
-		"logo": "/images/codestrike.png",
-		"from": "Jan 2014",
-		"to": "May 2016",
-		"lead": "To bring the coders of Atharva College together and help them to be better programmer, I founded <b>CodeStrike</b> as a chapter of <b>CodeChef</b> along with my friend Parikshit.",
-		"refs": [{
-			"icon": "medium",
-			"link": "https://medium.com/@ashgkwd/challenges-keep-me-interested-in-college-b1fa98107a0d#.3m5qb3suz"
-		}, {
-			"icon": "github",
-			"link": "https://github.com/codestrike"
-		}]
-	}, {
-		"name": "3D Printer",
-		"from": "Aug 2015",
-		"to": "Dec 2016",
-		"lead": "I build a 3D printer from scratch with two awesome team mates",
-		"refs": []
-	}, {
-		"name": "RadioLocus",
-		"logo": "http://www.radiolocus.com/images/ftr_logo.jpg",
-		"from": "Jun 2015",
-		"to": "Aug 2015",
-		"lead": "As summer intern, I was responsible for developing a cross platform desktop app which can auto detect WiFi sensor and allow to configure it using UI. I also worked on web frontend specially on visualization using D3JS. Along with that I also got some exposure to Hadoop and Casscading frameworks, testing machine setups using VMs etc.",
-		"refs": [{
-			"icon": "desktop",
-			"link": "http://www.radiolocus.com/"
-		}]
-	}, {
-		"name": "42Spices",
-		"logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAQiAAAAJDQ5MTBhNDRjLTQwZjgtNGZjYS04Y2UyLTEyNDU1NmEzYWZmZg.png",
-		"from": "Jun 2015",
-		"to": "Jul 2015",
-		"lead": "As remote summer intern, I worked on KeystoneJS (NodeJS), MongoDB and database version management. Also prototyped Android <i class='fa fa-android'></i> app for 42Spices.",
-		"refs": []
-	}, {
-		"name": "Expojure",
-		"from": "Dec 2014",
-		"to": "Feb 2015",
-		"lead": "As winter intern, I worked as full stack developer. Also created open source JavaScript library <b>Backpack</b> which provides UI components for BackboneJS apps.",
-		"refs": [{
-			"icon": "github",
-			"link": "https://github.com/ashgkwd/backpack"
-		}, {
-			"icon": "usd",
-			"link": "https://www.indiegogo.com/projects/expojure-spend-more-time-taking-photos#/"
-		}, {
-			"icon": "desktop",
-			"link": "http://invis.io/Z71CM8JT5"
-		}]
-	}, {
-		"name": "SongKira",
-		"from": "Dec 2013",
-		"to": "May 2015",
-		"lead": "To impress a girl in college, I created a music search engine as a web app using AngularJS and PHP, Python for backend. SongKira was very popular among college students.",
-		"refs": [{
-			"icon": "medium",
-			"link": "https://medium.com/hackers-asylum/what-i-have-learned-building-songkira-com-so-far-c61661555973"
-		}]
-	}]
+  "profile": {
+    "name": "Ashish Gaikwad",
+    "pic": "/images/ashish.png",
+    "lead": "<i class='fa fa-rocket'></i> creative and tenacious problem solver",
+    "links": [
+      {
+        "icon": "github",
+        "link": "http://github.com/ashgkwd?ref=http://gaikwad.rocks"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://in.linkedin.com/in/ashgkwd"
+      },
+      {
+        "icon": "medium",
+        "link": "https://medium.com/@ashgkwd"
+      },
+      {
+        "icon": "slideshare",
+        "link": "http://www.slideshare.net/ashgkwd"
+      },
+      {
+        "icon": "facebook-official",
+        "link": "http://fb.me/ash.gkwd"
+      },
+      {
+        "icon": "instagram",
+        "link": "https://www.instagram.com/ash.gkwd"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "name": "Varsito",
+      "logo": "/images/varsito.png",
+      "from": "Jun 2016",
+      "to": "Present",
+      "lead": "Here at Varsito things move pretty fast! I take care of server, browser, mobile and everything in between.",
+      "refs": [
+        {
+          "icon": "desktop",
+          "link": "http://varsito.com"
+        },
+        {
+          "icon": "medium",
+          "link": "https://medium.com/@ashgkwd/varsito-tech-stack-and-why-i-it-4132f9886ab2?source=http://gaikwad.rocks"
+        }
+      ]
+    },
+    {
+      "name": "SatNOGS Mumbai - Building A Satelite Ground Station",
+      "from": "Oct 2015",
+      "to": "Present",
+      "lead": "I'm founding member of SatNOGS Mumbai and currently takes care of softwares. Also I conducted a satellite making workshop with Azad and Sachin to raise funding for SatNOGS.",
+      "refs": []
+    },
+    {
+      "name": "CodeStrike - CodeChef Atharva Chapter",
+      "logo": "/images/codestrike.png",
+      "from": "Jan 2014",
+      "to": "May 2016",
+      "lead": "To bring the coders of Atharva College together and help them to be better programmer, I founded <b>CodeStrike</b> as a chapter of <b>CodeChef</b> along with my friend Parikshit.",
+      "refs": [
+        {
+          "icon": "medium",
+          "link": "https://medium.com/@ashgkwd/challenges-keep-me-interested-in-college-b1fa98107a0d#.3m5qb3suz"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/codestrike"
+        }
+      ]
+    },
+    {
+      "name": "3D Printer",
+      "from": "Aug 2015",
+      "to": "Dec 2016",
+      "lead": "I build a 3D printer from scratch with two awesome team mates",
+      "refs": []
+    },
+    {
+      "name": "RadioLocus",
+      "logo": "http://www.radiolocus.com/images/ftr_logo.jpg",
+      "from": "Jun 2015",
+      "to": "Aug 2015",
+      "lead": "As summer intern, I was responsible for developing a cross platform desktop app which can auto detect WiFi sensor and allow to configure it using UI. I also worked on web frontend specially on visualization using D3JS. Along with that I also got some exposure to Hadoop and Casscading frameworks, testing machine setups using VMs etc.",
+      "refs": [
+        {
+          "icon": "desktop",
+          "link": "http://www.radiolocus.com/"
+        }
+      ]
+    },
+    {
+      "name": "42Spices",
+      "logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAQiAAAAJDQ5MTBhNDRjLTQwZjgtNGZjYS04Y2UyLTEyNDU1NmEzYWZmZg.png",
+      "from": "Jun 2015",
+      "to": "Jul 2015",
+      "lead": "As remote summer intern, I worked on KeystoneJS (NodeJS), MongoDB and database version management. Also prototyped Android <i class='fa fa-android'></i> app for 42Spices.",
+      "refs": []
+    },
+    {
+      "name": "Expojure",
+      "from": "Dec 2014",
+      "to": "Feb 2015",
+      "lead": "As winter intern, I worked as full stack developer. Also created open source JavaScript library <b>Backpack</b> which provides UI components for BackboneJS apps.",
+      "refs": [
+        {
+          "icon": "github",
+          "link": "https://github.com/ashgkwd/backpack"
+        },
+        {
+          "icon": "usd",
+          "link": "https://www.indiegogo.com/projects/expojure-spend-more-time-taking-photos#/"
+        },
+        {
+          "icon": "desktop",
+          "link": "http://invis.io/Z71CM8JT5"
+        }
+      ]
+    },
+    {
+      "name": "SongKira",
+      "from": "Dec 2013",
+      "to": "May 2015",
+      "lead": "To impress a girl in college, I created a music search engine as a web app using AngularJS and PHP, Python for backend. SongKira was very popular among college students.",
+      "refs": [
+        {
+          "icon": "medium",
+          "link": "https://medium.com/hackers-asylum/what-i-have-learned-building-songkira-com-so-far-c61661555973"
+        }
+      ]
+    }
+  ]
 }
